@@ -138,7 +138,7 @@ describe MagicSeven do
 
     context 'when the random number is 5,678' do
       let(:magic) { described_class.new(5_768) }
-
+      
       it 'will return 7' do
         result = magic.play
         expect(result).to eq(7)
